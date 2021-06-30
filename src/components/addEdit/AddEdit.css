@@ -1,0 +1,32 @@
+.addedit {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 1px solid #E46225;
+  padding: 20px 0;
+  border-radius: 10px; }
+  .addedit__title {
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: bold; }
+  .addedit__form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%; }
+    .addedit__form input {
+      height: 50px;
+      border: none;
+      border-bottom: 1px solid #eee;
+      margin-bottom: 15px; }
+      .addedit__form input:focus {
+        outline: none; }
+  .addedit__btn {
+    width: 30%;
+    height: 50px;
+    border: none;
+    background-color: #E46225;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px; }
